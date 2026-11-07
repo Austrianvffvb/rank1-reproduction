@@ -1,0 +1,10 @@
+{
+  "model": "base",
+  "samples": 500,
+  "correct": 353,
+  "accuracy": 0.706,
+  "valid_label_rate": 0.988,
+  "mean_seconds": 0.14175379239418545,
+  "reference_true": 208,
+  "reference_false": 292
+}

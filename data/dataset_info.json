@@ -1,0 +1,38 @@
+{
+  "rank1_train_5000": {
+    "file_name": "train_5000.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "rank1_val_500": {
+    "file_name": "val_500.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "rank1_train_5000_label_only": {
+    "file_name": "train_5000_label_only.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "rank1_val_500_label_only": {
+    "file_name": "val_500_label_only.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "train_5000.json": {
+    "sha256": "26ed7f668e52ea90d0e6a38c51b3365e32e3437f0d03849ce0da6813a67e19db",
+    "bytes": 8916199
+  },
+  "train_5000_label_only.json": {
+    "sha256": "6a62c915ca07aa154822256905ddf2c9ee29377f81cee78ad8d1133a8034b9c7",
+    "bytes": 2930401
+  },
+  "val_500.json": {
+    "sha256": "e59cb1798b5ccf4a3793e862df00b783b4bcaa4df53d8409b69dccfcc92ed30a",
+    "bytes": 909123
+  },
+  "val_500_label_only.json": {
+    "sha256": "c23edfa1d48d66434e936744b9b18114a6763fe1f1c9e0f08f1103a74df4a4dc",
+    "bytes": 293470
+  }
+}

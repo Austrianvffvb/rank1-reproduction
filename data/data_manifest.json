@@ -1,0 +1,28 @@
+{
+  "seed": 12345,
+  "source": "rank1_official_train.json",
+  "source_sha256": "c79dce594854533b206785e2d6b2419d9dcb4abf6b708a315010185ef5f60db3",
+  "source_rows": 385791,
+  "valid_rows": 338140,
+  "excluded": {
+    "完全重复样本": 47651
+  },
+  "split_method": "query-disjoint; 10% of unique queries for validation pool",
+  "train": {
+    "samples": 5000,
+    "unique_queries": 4954,
+    "labels": {
+      "true": 2012,
+      "false": 2988
+    }
+  },
+  "validation": {
+    "samples": 500,
+    "unique_queries": 495,
+    "labels": {
+      "false": 292,
+      "true": 208
+    }
+  },
+  "query_overlap": 0
+}

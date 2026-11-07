@@ -1,0 +1,10 @@
+{
+  "model": "label_only",
+  "samples": 500,
+  "correct": 453,
+  "accuracy": 0.906,
+  "valid_label_rate": 1.0,
+  "mean_seconds": 0.028608859054744244,
+  "reference_true": 208,
+  "reference_false": 292
+}

@@ -1,0 +1,10 @@
+{
+  "model": "finetuned",
+  "samples": 500,
+  "correct": 446,
+  "accuracy": 0.892,
+  "valid_label_rate": 1.0,
+  "mean_seconds": 3.819929347031517,
+  "reference_true": 208,
+  "reference_false": 292
+}

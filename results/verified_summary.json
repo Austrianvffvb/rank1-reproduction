@@ -1,0 +1,80 @@
+{
+  "provenance": "Recomputed from archived per-pair predictions; not new model runs",
+  "models": {
+    "base": {
+      "samples": 500,
+      "correct": 353,
+      "accuracy": 0.706,
+      "valid_label_rate": 0.988,
+      "precision_true": 0.6497695852534562,
+      "recall_true": 0.6778846153846154,
+      "mean_generated_tokens": 7.344,
+      "historical_mean_seconds_not_cross_hardware_comparable": 0.14175379239418545,
+      "pair_wilson_95_descriptive_only": [
+        0.6646172591655972,
+        0.7442415125642432
+      ],
+      "prediction_file_sha256": "40ae3a007d570e5b0e914c0aa05aa0580036c18f071d421a669d59b9d8e4881f",
+      "query_bootstrap_accuracy_95": [
+        0.6673346693386774,
+        0.7455037074148295
+      ]
+    },
+    "finetuned": {
+      "samples": 500,
+      "correct": 446,
+      "accuracy": 0.892,
+      "valid_label_rate": 1.0,
+      "precision_true": 0.8666666666666667,
+      "recall_true": 0.875,
+      "mean_generated_tokens": 203.808,
+      "historical_mean_seconds_not_cross_hardware_comparable": 3.819929347031517,
+      "pair_wilson_95_descriptive_only": [
+        0.8617453267151934,
+        0.9162771903629497
+      ],
+      "prediction_file_sha256": "d0079c94330653072f8e7108e41d1fa5c9bec86efbc38eae38ffa643ae0b6c76",
+      "query_bootstrap_accuracy_95": [
+        0.8637274549098196,
+        0.9196787148594378
+      ]
+    },
+    "label_only": {
+      "samples": 500,
+      "correct": 453,
+      "accuracy": 0.906,
+      "valid_label_rate": 1.0,
+      "precision_true": 0.8744186046511628,
+      "recall_true": 0.9038461538461539,
+      "mean_generated_tokens": 1,
+      "historical_mean_seconds_not_cross_hardware_comparable": 0.028608859054744244,
+      "pair_wilson_95_descriptive_only": [
+        0.8772354441374409,
+        0.9285735914077787
+      ],
+      "prediction_file_sha256": "98e9a1fe2606d36d4002056c9683b18787a2eac1ca90664c4054ae34ecf85eb5",
+      "query_bootstrap_accuracy_95": [
+        0.8809405236198065,
+        0.93
+      ]
+    }
+  },
+  "paired_counts": {
+    "both_correct": 422,
+    "reasoning_only_correct": 24,
+    "label_only_correct": 31,
+    "both_wrong": 23
+  },
+  "interval_note": "Wilson intervals treat pairs as independent and are descriptive only. Query bootstrap accounts for shared queries, but not training-seed variation or validation-set adaptation.",
+  "unique_queries": 495,
+  "query_bootstrap_label_minus_reasoning_95": [
+    -0.015936254980079667,
+    0.04236935084637481
+  ],
+  "bootstrap": {
+    "replicates": 2000,
+    "seed": 12345,
+    "unit": "normalized query",
+    "estimator": "pair-weighted accuracy"
+  }
+}
